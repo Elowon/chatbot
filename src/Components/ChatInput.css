@@ -1,0 +1,24 @@
+button {
+  background-color: rgb(25, 135, 84);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  margin-left: 10px;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(14, 90, 55);
+}
+.chat-input {
+  padding: 15px 20px;
+  border-radius: 10px;
+  border-width: 1px;
+  font-size: 15px;
+  flex-grow: 1;
+}
+.chat-input-container {
+  display: flex;
+  margin-bottom: 70px;
+}
